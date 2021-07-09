@@ -25,18 +25,18 @@ class OnBoardingScreen extends StatefulWidget {
 class _OnBoardingScreenState extends State<OnBoardingScreen> {
   List<BoardingModel> boarding = [
     BoardingModel(
-      imagePath: 'assets/images/on_boarding_2.jpg',
-      title: 'Screen Title 1',
-      body: 'Screen Body 1',
+      imagePath: 'assets/images/discover.jpg',
+      title: 'DISCOVER',
+      body: 'welcome to our shop',
     ),
     BoardingModel(
-      imagePath: 'assets/images/on_boarding_2.jpg',
-      title: 'Screen Title 2',
+      imagePath: 'assets/images/payment.jpg',
+      title: 'MAKE THE PAYMENT',
       body: 'Screen Body 2',
     ),
     BoardingModel(
       imagePath: 'assets/images/on_boarding_2.jpg',
-      title: 'Screen Title 3',
+      title: 'ENJOY YOUR SHOPPING',
       body: 'Screen Body 3',
     ),
   ];

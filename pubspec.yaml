@@ -30,8 +30,6 @@ dependencies:
   #hexcolor package for converting hexCode to color  in my app
   shared_preferences: ^2.0.6
   #shared_preferences package to save data locally  in my app
-#  webView_flutter: ^2.0.7
-  #webview_flutter package to show data  in my app
   smooth_page_indicator: ^0.2.3
   #smooth_page_indicator package to customize animated page indicator with a set of built-in effects  in my app
   fluttertoast: ^8.0.7
