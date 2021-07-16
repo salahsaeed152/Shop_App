@@ -25,12 +25,12 @@ class OnBoardingScreen extends StatefulWidget {
 class _OnBoardingScreenState extends State<OnBoardingScreen> {
   List<BoardingModel> boarding = [
     BoardingModel(
-      imagePath: 'assets/images/discover.jpg',
+      imagePath: 'assets/images/on_boarding_2.jpg',
       title: 'DISCOVER',
       body: 'welcome to our shop',
     ),
     BoardingModel(
-      imagePath: 'assets/images/payment.jpg',
+      imagePath: 'assets/images/on_boarding_2.jpg',
       title: 'MAKE THE PAYMENT',
       body: 'Screen Body 2',
     ),
@@ -137,8 +137,8 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Expanded(
-            child: Image.asset(
-              '${boardingModel.imagePath}',
+            child: new Image.asset(
+              boardingModel.imagePath,
             ),
           ),
           SizedBox(height: 30.0),
